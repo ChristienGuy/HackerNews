@@ -27,6 +27,7 @@
     "@reach/router": "^1.1.1",
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-pose": "^3.0.0",

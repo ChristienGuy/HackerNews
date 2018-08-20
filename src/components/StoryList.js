@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
+import { string } from "prop-types";
 import StoryPreview from "Components/StoryPreview";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const ListStyled = styled.ul`
   display: flex;
@@ -17,6 +18,14 @@ const StoryList = ({ stories }) => (
       </li>
     ))}
   </ListStyled>
-)
+);
+
+StoryList.propTypes = {
+  stories: {
+    id: string,
+    title: string,
+    points: string
+  }
+};
 
 export default StoryList;
