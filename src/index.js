@@ -11,10 +11,12 @@ import New from "Pages/New";
 import Item from "Pages/Item";
 
 injectGlobal`
+  @import url('https://fonts.googleapis.com/css?family=Assistant');
   body {
     padding-bottom: 48px;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
   }
   *,
   *:before,

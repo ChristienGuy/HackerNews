@@ -1,16 +1,18 @@
 import React, { Component } from "react";
+import { array } from "prop-types";
 import axios from "axios";
-import StoryList from 'Components/StoryList';
+import StoryList from "Components/StoryList";
 
-import { apiRoot } from '../constants';
+import { apiRoot } from "Utils/constants";
 
-const Home = ({ stories }) => (
-  <StoryList stories={stories} />
-);
+const Home = ({ stories }) => <StoryList stories={stories} />;
+Home.propTypes = {
+  stories: array
+};
 
 class HomeContainer extends Component {
   state = {
-    stories: [],
+    stories: []
   };
 
   componentDidMount() {

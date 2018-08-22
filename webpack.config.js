@@ -9,12 +9,13 @@ module.exports = {
   output: {
     filename: "[name].js",
     chunkFilename: "[name].js",
-    publicPath: '/'
+    publicPath: "/"
   },
   resolve: {
     alias: {
       Components: path.resolve(__dirname, "src/components"),
-      Pages: path.resolve(__dirname, "src/pages")
+      Pages: path.resolve(__dirname, "src/pages"),
+      Utils: path.resolve(__dirname, "src/utils")
     }
   },
   module: {
@@ -25,6 +26,10 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.svg$/,
+        loader: "svg-inline-loader"
       }
     ]
   },
