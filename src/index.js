@@ -5,10 +5,22 @@ import { Router } from "@reach/router";
 import { BottomNav } from "Components/shared/Navigation";
 import { injectGlobal } from "styled-components";
 
-// PAGES
-import Home from "Pages/Home";
-import New from "Pages/New";
-import Item from "Pages/Item";
+import Loadable from "react-loadable";
+
+const Loading = () => <p>Loading...</p>;
+
+const AsyncHome = Loadable({
+  loader: () => import("Pages/Home"),
+  loading: Loading
+});
+const AsyncNew = Loadable({
+  loader: () => import("Pages/New"),
+  loading: Loading
+});
+const AsyncItem = Loadable({
+  loader: () => import("Pages/Item"),
+  loading: Loading
+});
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Assistant');
@@ -25,15 +37,13 @@ injectGlobal`
   }
 `;
 
-
-
 const Index = () => {
   return (
     <Fragment>
       <Router>
-        <Home path="/" />
-        <New path="new" />
-        <Item path="item/:id" />
+        <AsyncHome path="/" />
+        <AsyncNew path="new" />
+        <AsyncItem path="item/:id" />
       </Router>
       <BottomNav />
     </Fragment>
