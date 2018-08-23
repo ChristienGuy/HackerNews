@@ -1,0 +1,21 @@
+.comment {
+  padding: 16px;
+  border-left: 4px solid #808080;
+}
+.comment pre {
+  overflow: scroll;
+}
+.comment a {
+  word-wrap: break-word;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.childList {
+  padding: 0;
+  list-style: none;
+  margin-left: 8px;
+}

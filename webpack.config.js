@@ -2,8 +2,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+  .BundleAnalyzerPlugin;
 
 module.exports = {
   entry: {
@@ -33,6 +33,24 @@ module.exports = {
       {
         test: /\.svg$/,
         loader: "svg-inline-loader"
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader",
+            options: {
+              modules: true,
+              importLoaders: 1,
+              localIdentName: "[name]_[local]_[hash:base64]",
+              sourceMap: true,
+              minimize: true
+            }
+          }
+        ]
       }
     ]
   },
@@ -42,10 +60,10 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
-        from: './src/_redirects',
-        to: './'
+        from: "./src/_redirects",
+        to: "./"
       }
-    ]),
+    ])
     // new BundleAnalyzerPlugin()
   ],
   devServer: {

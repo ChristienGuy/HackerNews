@@ -1,26 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import style from './CommentList.css';
 
 const List = styled.ul`
-  padding: 0;
-  list-style: none;
-`;
 
-const ChildList = styled(List)`
-  margin-left: 8px;
-`;
-
-const StyledComment = styled.div`
-  padding: 16px;
-  border-left: 4px solid #808080;
-
-  pre {
-    overflow: scroll;
-  }
-
-  a {
-    word-wrap: break-word;
-  }
 `;
 
 class Comment extends React.Component {
@@ -28,10 +11,10 @@ class Comment extends React.Component {
     const { user, content, children } = this.props;
     return (
       <li>
-        <StyledComment>
+        <div className={style.comment}>
           <p>{user}</p>
           <div dangerouslySetInnerHTML={{ __html: content }} />
-        </StyledComment>
+        </div>
         {children}
       </li>
     );
@@ -46,7 +29,7 @@ class CommentList extends React.Component {
   list(comments) {
     const children = items => {
       if (items) {
-        return <ChildList>{this.list(items)}</ChildList>;
+        return <ul className={style.childList}>{this.list(items)}</ul>;
       }
     };
 
@@ -60,7 +43,7 @@ class CommentList extends React.Component {
   }
 
   render() {
-    return <List>{this.list(this.props.comments)}</List>;
+    return <ul className={style.list}>{this.list(this.props.comments)}</ul>;
   }
 }
 
