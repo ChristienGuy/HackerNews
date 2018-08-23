@@ -1,0 +1,35 @@
+.wrapper {
+  display: inline-block;
+  width: 100%;
+  padding: 8px 16px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.meta-data-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.meta-data {
+  margin-right: 8px;
+  font-size: 12px;
+  color: #808080;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.meta-data:last-child {
+  margin-right: 0;
+
+}
+
+.titleLink {
+  text-decoration: none;
+  font-size: 20px;
+  color: #222222;
+  display: inline-block;
+  margin-bottom: 8px;
+}

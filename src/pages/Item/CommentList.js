@@ -1,10 +1,5 @@
 import React from "react";
-import styled from "styled-components";
 import style from './CommentList.css';
-
-const List = styled.ul`
-
-`;
 
 class Comment extends React.Component {
   render() {
