@@ -1,18 +1,10 @@
 import React from "react";
 import { array } from "prop-types";
 import StoryPreview from "Components/StoryPreview";
-import styled from "styled-components";
-
-const ListStyled = styled.ul`
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-`;
+import style from "./StoryList.css";
 
 const StoryList = ({ stories }) => (
-  <ListStyled>
+  <ul className={style.list}>
     {stories.map(({ id, title, points, comments_count, url, user }) => (
       <li key={id}>
         <StoryPreview
@@ -25,7 +17,7 @@ const StoryList = ({ stories }) => (
         />
       </li>
     ))}
-  </ListStyled>
+  </ul>
 );
 
 StoryList.propTypes = {

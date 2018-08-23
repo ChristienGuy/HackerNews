@@ -1,41 +1,19 @@
 import React from "react";
 import { Link } from "@reach/router";
 import styled from "styled-components";
-
-const Nav = styled.nav`
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  background-color: #5E525C;
-`;
-
-const List = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  list-style: none;
-  padding: 0;
-`;
-
-const NavLink = styled(Link)`
-  color: white;
-  text-decoration: none;
-`;
+import style from "./BottomNav.css";
 
 const BottomNav = () => (
-  <Nav>
-    <List>
+  <nav className={style.bottomNav}>
+    <ul className={style.bottomNavList}>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <Link className={style.bottomNavLink} to="/">Home</Link>
       </li>
       <li>
-        <NavLink to="new">New</NavLink>
+        <Link className={style.bottomNavLink} to="new">New</Link>
       </li>
-    </List>
-  </Nav>
+    </ul>
+  </nav>
 );
 
 export default BottomNav;
