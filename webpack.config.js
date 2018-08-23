@@ -46,7 +46,7 @@ module.exports = {
         to: './'
       }
     ]),
-    new BundleAnalyzerPlugin()
+    // new BundleAnalyzerPlugin()
   ],
   devServer: {
     historyApiFallback: true
