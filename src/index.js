@@ -3,7 +3,6 @@ import React, { Fragment } from "react";
 import { render } from "react-dom";
 import { Router } from "@reach/router";
 import { BottomNav } from "Components/shared/Navigation";
-import { injectGlobal } from "styled-components";
 
 import Home from "Pages/Home";
 import Loadable from "react-loadable";
@@ -18,21 +17,6 @@ const AsyncItem = Loadable({
   loader: () => import("Pages/Item"),
   loading: Loading
 });
-
-injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Assistant');
-  body {
-    padding-bottom: 48px;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Assistant', sans-serif;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-`;
 
 const Index = () => {
   return (
