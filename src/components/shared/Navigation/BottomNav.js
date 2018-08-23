@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "@reach/router";
-import styled from "styled-components";
 import style from "./BottomNav.css";
 
 const BottomNav = () => (
