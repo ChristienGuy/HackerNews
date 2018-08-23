@@ -1,4 +1,4 @@
-import "core-js/features/promise";
+import "core-js";
 import React, { Fragment } from "react";
 import { render } from "react-dom";
 import { Router } from "@reach/router";
