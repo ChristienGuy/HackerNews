@@ -1,18 +1,15 @@
-import 'core-js/features/promise';
+import "core-js/features/promise";
 import React, { Fragment } from "react";
 import { render } from "react-dom";
 import { Router } from "@reach/router";
 import { BottomNav } from "Components/shared/Navigation";
 import { injectGlobal } from "styled-components";
 
+import Home from "Pages/Home";
 import Loadable from "react-loadable";
 
 const Loading = () => <p>Loading...</p>;
 
-const AsyncHome = Loadable({
-  loader: () => import("Pages/Home"),
-  loading: Loading
-});
 const AsyncNew = Loadable({
   loader: () => import("Pages/New"),
   loading: Loading
@@ -41,7 +38,7 @@ const Index = () => {
   return (
     <Fragment>
       <Router>
-        <AsyncHome path="/" />
+        <Home path="/" />
         <AsyncNew path="new" />
         <AsyncItem path="item/:id" />
       </Router>
