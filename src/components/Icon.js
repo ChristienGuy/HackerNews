@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Icon.css";
 
-
 const Icon = ({ icon, fill }) => {
   return (
-    <span 
+    <span
       className={style.icon}
-      style={{fill:fill}}
+      style={{ fill: fill }}
       dangerouslySetInnerHTML={{
         __html: require(`../assets/svg/${icon}.svg`)
       }}
