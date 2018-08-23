@@ -4,7 +4,6 @@ import { Link } from "@reach/router";
 import Icon from "./Icon";
 import style from "./StoryPreview.css";
 
-
 const StoryPreview = ({ title, points, id, commentsCount, url, user }) => (
   <span className={style.wrapper}>
     <a className={style.titleLink} href={url}>
