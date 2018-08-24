@@ -8,5 +8,13 @@
     ],
     "react"
   ],
-  "plugins": [["transform-class-properties"], ["syntax-dynamic-import"]]
+  "plugins": ["transform-class-properties", "syntax-dynamic-import"],
+  "env": {
+    "development": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    },
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
 }

@@ -18,7 +18,8 @@ module.exports = {
     alias: {
       Components: path.resolve(__dirname, "src/components"),
       Pages: path.resolve(__dirname, "src/pages"),
-      Utils: path.resolve(__dirname, "src/utils")
+      Utils: path.resolve(__dirname, "src/utils"),
+      Mocks: path.resolve(__dirname, "__mocks__")
     }
   },
   module: {
@@ -64,7 +65,7 @@ module.exports = {
         from: "./src/_redirects",
         to: "./"
       }
-    ])
+    ]),
     // new BundleAnalyzerPlugin()
   ],
   devServer: {
