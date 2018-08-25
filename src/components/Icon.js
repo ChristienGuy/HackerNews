@@ -1,4 +1,6 @@
+/* global require */
 import React from "react";
+import { string } from 'prop-types';
 import style from "./Icon.css";
 
 const Icon = ({ icon, fill }) => {
@@ -12,5 +14,10 @@ const Icon = ({ icon, fill }) => {
     />
   );
 };
+
+Icon.propTypes = {
+  icon: string,
+  fill: string,
+}
 
 export default Icon;
