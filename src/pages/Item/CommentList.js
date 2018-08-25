@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./CommentList.css";
+import { string, node, array } from "prop-types";
 
 class Comment extends React.Component {
   render() {
@@ -16,6 +17,12 @@ class Comment extends React.Component {
   }
 }
 
+Comment.propTypes = {
+  user: string,
+  content: string,
+  children: node
+};
+
 class CommentList extends React.Component {
   constructor() {
     super();
@@ -28,7 +35,7 @@ class CommentList extends React.Component {
       }
     };
 
-    return comments.map(({ id, user, content, comments }, index) => {
+    return comments.map(({ id, user, content, comments }) => {
       return (
         <Comment key={id} user={user} content={content}>
           {children(comments)}
@@ -41,5 +48,9 @@ class CommentList extends React.Component {
     return <ul className={style.list}>{this.list(this.props.comments)}</ul>;
   }
 }
+
+CommentList.propTypes = {
+  comments: array
+};
 
 export default CommentList;

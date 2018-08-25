@@ -8,6 +8,8 @@
     "build": "webpack --mode production",
     "deploy": "yarn test && yarn build",
     "format": "prettier-eslint --write \"src/**/*.js\"",
+    "check_formatting": "prettier-eslint --list-different \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\"",
     "test": "jest"
   },
   "devDependencies": {
