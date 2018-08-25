@@ -1,7 +1,7 @@
 import React from "react";
 import { string, number } from "prop-types";
 import { Link } from "@reach/router";
-import Icon from "./Icon";
+import Icon from "Components/Icon";
 import style from "./StoryPreview.css";
 
 const StoryPreview = ({ title, points, id, commentsCount, url, user }) => (

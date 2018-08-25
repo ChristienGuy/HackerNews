@@ -1,0 +1,1626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 30 items 1`] = `
+<div>
+  <ul
+    class="list"
+  >
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://github.com/fogleman/Craft"
+        >
+          Craft: A simple Minecraft clone written in C using OpenGL shaders
+        </a>
+        <a
+          href="/item/17828187"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              300
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              96
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              sbjs
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://motherboard.vice.com/en_us/article/9kmj4v/spyware-company-spyfone-terabytes-data-exposed-online-leak"
+        >
+          Spyware Company Leaves ‘Terabytes’ of Selfies, Messages, Location Data Exposed
+        </a>
+        <a
+          href="/item/17827204"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              211
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              89
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              wglb
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://marc.info/?l=openbsd-tech&m=153504937925732&w=2"
+        >
+          Disable SMT/Hyperthreading in all Intel BIOSes
+        </a>
+        <a
+          href="/item/17829790"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              140
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              72
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              carlesfe
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.technologyreview.com/s/611896/life-as-a-bug-bounty-hunter/"
+        >
+          Life as a bug bounty hunter
+        </a>
+        <a
+          href="/item/17829644"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              30
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              32
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              mkm416
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.home-assistant.io/"
+        >
+          Home Assistant: Open-source home automation platform running on Python 3
+        </a>
+        <a
+          href="/item/17826373"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              365
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              149
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              fanf2
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://jepsen.io/analyses/dgraph-1-0-2"
+        >
+          Jepsen: Dgraph 1.0.2
+        </a>
+        <a
+          href="/item/17828478"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              112
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              57
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              aphyr
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.bloomberg.com/news/articles/2018-08-23/microsoft-bug-testers-unionized-then-they-were-dismissed"
+        >
+          Microsoft Bug Testers Unionized, Then They Were Dismissed
+        </a>
+        <a
+          href="/item/17830381"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              41
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              16
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              fludlight
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://outschool.workable.com/jobs/668815"
+        >
+          Outschool (kids' classes over video chat, YC W16) is hiring an engineer in SF
+        </a>
+        <a
+          href="/item/17830492"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            />
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              0
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            />
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://hackernoon.com/8-mistakes-we-made-in-our-companys-first-8-years-3d38422333b"
+        >
+          Mistakes we made in our Company’s First 8 Years
+        </a>
+        <a
+          href="/item/17829569"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              29
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              0
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              brennanm
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.ifixit.com/Teardown/Magic+Leap+One+Teardown/112245"
+        >
+          Magic Leap One Teardown
+        </a>
+        <a
+          href="/item/17827112"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              201
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              69
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              jrnkntl
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://tech.buzzfeed.com/unleashing-the-a6a1a5da39d6"
+        >
+          Show HN: BuzzFeed open source SSO
+        </a>
+        <a
+          href="/item/17828293"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              101
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              29
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              itwasntandy
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://newrepublic.com/article/150497/vanishing-idealism-burning-man"
+        >
+          The Vanishing Idealism of Burning Man
+        </a>
+        <a
+          href="/item/17827568"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              90
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              68
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              devy
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-alam.pdf"
+        >
+          Single-decryption EM-based attack reveals private keys from Android phones [pdf]
+        </a>
+        <a
+          href="/item/17817966"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              72
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              29
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              dhx
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="http://johnny-five.io/news/v1_0/"
+        >
+          Johnny-Five v1.0 – JavaScript Robotics and IoT Framework
+        </a>
+        <a
+          href="/item/17827764"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              80
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              18
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              bpierre
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.theatlantic.com/entertainment/archive/2018/08/when-poetry-isnt-poetry/567571/?single_page=true"
+        >
+          Poetry Is Everywhere
+        </a>
+        <a
+          href="/item/17822761"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              15
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              2
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              tintinnabula
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://chem.tufts.edu/answersinscience/relativityofwrong.htm"
+        >
+          The Relativity of Wrong (1989)
+        </a>
+        <a
+          href="/item/17818069"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              35
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              3
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              coffeeandjunk
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.tomshardware.com/news/intel-cpu-microcode-benchmark-mitigation,37684.html"
+        >
+          Intel Responds to Complaints About Microcode Benchmarking Ban
+        </a>
+        <a
+          href="/item/17828658"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              114
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              42
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              jsheard
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://blog.torservers.net/20180704/coordinated-raids-of-zwiebelfreunde-at-various-locations-in-germany.html#update"
+        >
+          Court has confirmed coordinated raids of Zwiebelfreunde in Germany were illegal
+        </a>
+        <a
+          href="/item/17827861"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              159
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              15
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              rendx
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.prospectmagazine.co.uk/magazine/early-diagnosis-cancer-screening-women-risk"
+        >
+          The Dark Side of Early Diagnosis
+        </a>
+        <a
+          href="/item/17827538"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              8
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              0
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              DanBC
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.bleepingcomputer.com/news/security/new-attack-recovers-rsa-encryption-keys-from-em-waves-within-seconds/"
+        >
+          New Attack Recovers RSA Encryption Keys from EM Waves Within Seconds
+        </a>
+        <a
+          href="/item/17821601"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              4
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              0
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              tdupree
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html"
+        >
+          Epigrams on Programming (1982)
+        </a>
+        <a
+          href="/item/17824096"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              19
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              1
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              nour_js
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.wired.com/story/stratolaunch-airplane-burt-rutan-paul-allen/"
+        >
+          385 Feet of Crazy: The Most Audacious Flying Machine
+        </a>
+        <a
+          href="/item/17827391"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              65
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              45
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              xhrpost
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.trackinghappiness.com/happy-in-love-happiness-through-love-part-1/"
+        >
+          Quantifying happiness in my relationship with data
+        </a>
+        <a
+          href="/item/17816801"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              36
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              6
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              Doncametic
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.marketwatch.com/story/netflix-is-the-latest-company-to-try-bypassing-apples-app-store-2018-08-23"
+        >
+          Netflix is the latest company to try bypassing Apple’s app store
+        </a>
+        <a
+          href="/item/17829656"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              117
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              142
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              gbaygon
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://perens.com/2018/08/22/new-intel-microcode-license-restriction-is-not-acceptable/"
+        >
+          Intel Publishes Microcode Patches, No Benchmarking or Comparison Allowed
+        </a>
+        <a
+          href="/item/17824218"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              1248
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              454
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              jeswin
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.sec.gov/Archives/edgar/data/1475115/000119312518255960/d593770ds1.htm"
+        >
+          Eventbrite S-1
+        </a>
+        <a
+          href="/item/17828851"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              79
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              65
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              coloneltcb
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.bloomberg.com/news/features/2018-08-22/nobody-trusts-facebook-twitter-is-a-hot-mess-what-is-snap-s-evan-spiegel-doing"
+        >
+          Nobody Trusts Facebook, Twitter Is a Hot Mess, What Is Snapchat Doing?
+        </a>
+        <a
+          href="/item/17820099"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              136
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              148
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              pdog
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.fun-mooc.fr/courses/course-v1:parisdiderot+56002+session03/about"
+        >
+          Introduction to Functional Programming in OCaml
+        </a>
+        <a
+          href="/item/17826731"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              227
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              132
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              melling
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.cnet.com/news/sending-tiny-spacecraft-to-alpha-centauri"
+        >
+          Are we alone? Tiny spacecraft will head to Alpha Centauri to find out
+        </a>
+        <a
+          href="/item/17822124"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              135
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              140
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              ForHackernews
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li>
+      <span
+        class="wrapper"
+      >
+        <a
+          href="https://www.theverge.com/circuitbreaker/2018/8/21/17765330/mayfield-robotics-kuri-robot-shutting-down"
+        >
+          The company behind the adorably doomed robot Kuri is shutting down
+        </a>
+        <a
+          href="/item/17828148"
+        >
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              27
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              13
+            </span>
+          </span>
+          <span>
+            <span
+              class="icon"
+              style="fill: #808080;"
+            >
+              test-file-stub
+            </span>
+            <span
+              style="margin-left: 4px;"
+            >
+              evo_9
+            </span>
+          </span>
+        </a>
+      </span>
+    </li>
+  </ul>
+</div>
+`;

@@ -2,7 +2,7 @@ import "core-js";
 import React, { Fragment } from "react";
 import { render } from "react-dom";
 import { Router } from "@reach/router";
-import { BottomNav } from "Components/shared/Navigation";
+import { BottomNav } from "Components/Navigation";
 
 import Home from "Pages/Home";
 import Loadable from "react-loadable";

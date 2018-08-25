@@ -1,6 +1,6 @@
 import React from "react";
 import { array } from "prop-types";
-import StoryPreview from "Components/StoryPreview";
+import StoryPreview from "./StoryPreview";
 import style from "./StoryList.css";
 
 const StoryList = ({ stories }) => (

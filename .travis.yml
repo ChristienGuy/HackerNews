@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  yarn: true
+  directories:
+    - node_modules
+script:
+  - yarn test
+after_success:
+  - curl -X POST -d '' https://api.netlify.com/build_hooks/5b810eeae39e7c52564b8cba
+on:
+  branch: master
