@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { apiRoot } from "Utils/constants";
 import CommentList from "./CommentList";
 import axios from "axios";
+import { string, array, number } from "prop-types";
 
 class ItemContainer extends Component {
   state = {
@@ -30,7 +31,7 @@ class ItemContainer extends Component {
   }
 }
 
-const Item = ({ title, url, user, type, points, comments }) => (
+const Item = ({ title, comments }) => (
   <div>
     <h1>{title}</h1>
 
@@ -41,5 +42,14 @@ const Item = ({ title, url, user, type, points, comments }) => (
     )}
   </div>
 );
+
+Item.propTypes = {
+  title: string,
+  url: string,
+  user: string,
+  type: string,
+  points: number,
+  comments: array
+};
 
 export { ItemContainer as default, Item };

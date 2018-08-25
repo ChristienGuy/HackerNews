@@ -27,9 +27,12 @@ const StoryPreview = ({ title, points, id, commentsCount, url, user }) => (
 );
 
 StoryPreview.propTypes = {
-  title: string,
+  commentsCount: number,
+  id: number,
   points: number,
-  id: number
+  title: string,
+  url: string,
+  user: string
 };
 
 export default StoryPreview;
