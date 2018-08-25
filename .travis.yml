@@ -6,6 +6,8 @@ cache:
   directories:
     - node_modules
 script:
+  - yarn lint
+  - yarn format
   - yarn test
 after_success:
   - curl -X POST -d '' https://api.netlify.com/build_hooks/5b810eeae39e7c52564b8cba
